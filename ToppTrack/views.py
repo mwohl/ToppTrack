@@ -1,4 +1,4 @@
-from app import app
+from ToppTrack import app
 from flask import request, render_template, redirect, url_for
 
 @app.route('/', methods=['GET'])
